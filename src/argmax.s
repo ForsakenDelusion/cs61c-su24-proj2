@@ -16,7 +16,9 @@
 # =================================================================
 argmax:
     # Prologue
-
+    ebreak
+    addi t0 x0 1
+    blt a1 t0 error_exit
 
 loop_start:
 
@@ -28,3 +30,8 @@ loop_end:
     # Epilogue
 
     jr ra
+    
+error_exit:
+
+    li a0 36
+    j exit
