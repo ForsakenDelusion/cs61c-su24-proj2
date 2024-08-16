@@ -12,3 +12,8 @@
 
 >The ReLU function takes in an integer array and sets every negative value in the array to 0. Positive values in the array are unchanged. In other words, for each element x in the array, ReLU computes max(x, 0).
 
+感觉主要考察了branch，细心一点就行，和lab03有点像
+
+## Task3
+
+该函数是返回一个数组中最大的数字下标
