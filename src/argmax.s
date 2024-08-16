@@ -19,8 +19,8 @@ argmax:
     ebreak
     addi t0 x0 1
     blt a1 t0 error_exit
-    addi t0 x0 0 #t0 is counter
-    addi t1 x0 0 #t1 is offset
+    addi t0 x0 0 # t0 is counter
+    addi t1 x0 0 # t1 is offset
     lw t3 0(a0) 
     mv t4 t0
 loop_start:

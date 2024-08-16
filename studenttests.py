@@ -32,6 +32,7 @@ abs_loss
 # =======================================================
 """
 
+# 好讨厌写单元测试啊！
 
 class TestAbsLoss(unittest.TestCase):
     def test_simple(self):
