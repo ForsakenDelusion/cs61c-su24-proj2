@@ -17,13 +17,13 @@ relu:
     ebreak
     addi t0 x0 1
     blt a1 t0 error_exit
-    addi t1 x0 0 #t1 is the counter
-    addi t2 x0 0 #t2 is the offset
+    addi t1 x0 0 # t1 is the counter
+    addi t2 x0 0 # t2 is the offset
 loop_start:
-    addi t3 x0 0 #t3 is the value of array[i]
-    add t4 x0 a0 #t4 is the bAddr
+    addi t3 x0 0 # t3 is the value of array[i]
+    add t4 x0 a0 # t4 is the bAddr
     slli t2 t1 2
-    add t4 t4 t2 #get the bAddr + offset
+    add t4 t4 t2 # get the bAddr + offset
     lw t3  0(t4)
     blt t3 zero loop_continue
     addi t1 t1 1
