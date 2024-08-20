@@ -24,6 +24,25 @@
 
 是关于向量点乘(Dot Prodcut)的
 
+```txt
+# FUNCTION: Dot product of 2 int arrays
+# Arguments:
+#   a0 (int*) is the pointer to the start of arr0
+#   a1 (int*) is the pointer to the start of arr1
+#   a2 (int)  is the number of elements to use
+#   a3 (int)  is the stride of arr0
+#   a4 (int)  is the stride of arr1
+# Returns:
+#   a0 (int)  is the dot product of arr0 and arr1
+# Exceptions:
+#   - If the number of elements to use is less than 1,
+#     this function terminates the program with error code 36
+#   - If the stride of either array is less than 1,
+#     this function terminates the program with error code 37
+```
+
+
+
 ### Array Strides
 
 这个其实就是决定数组中隔几个元素被选中，比如stride为2，那么数组中的0，2，4，6...就会被选中；stride为3，0,3,6,9...就会被选中
@@ -51,4 +70,31 @@
 ####  zero-one loss function
 
 计算每一个对应位置是否相等，不输出任何和
+
+## Task6
+
+要求:
+
+```txt
+# FUNCTION: Matrix Multiplication of 2 integer matrices
+#   d = matmul(m0, m1)
+# Arguments:
+#   a0 (int*)  is the pointer to the start of m0
+#   a1 (int)   is the # of rows (height) of m0
+#   a2 (int)   is the # of columns (width) of m0
+#   a3 (int*)  is the pointer to the start of m1
+#   a4 (int)   is the # of rows (height) of m1
+#   a5 (int)   is the # of columns (width) of m1
+#   a6 (int*)  is the pointer to the the start of d
+# Returns:
+#   None (void), sets d = matmul(m0, m1)
+# Exceptions:
+#   Make sure to check in top to bottom order!
+#   - If the dimensions of m0 do not make sense,
+#     this function terminates the program with exit code 38
+#   - If the dimensions of m1 do not make sense,
+#     this function terminates the program with exit code 38
+#   - If the dimensions of m0 and m1 don't match,
+#     this function terminates the program with exit code 38
+```
 
