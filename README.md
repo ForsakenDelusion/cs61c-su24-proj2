@@ -107,3 +107,33 @@
 
 
 第一遍题目没看懂。。导致花了很多时间，后来看了别人的思路之后就完全不想自己写了，没get到点就很烦啊
+
+
+
+注意a1和a2指针是用来存放row和col的
+
+
+
+## Task9
+
+
+
+0 m0.row
+
+4 m0.col
+
+8 m1.row
+
+12 m1.col
+
+16 input.row
+
+20 input.col
+
+24 h.row
+
+28 h.col
+
+32 o.row
+
+36 o.col
