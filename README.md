@@ -114,26 +114,16 @@
 
 
 
+## Task8
+
+
+
+这里有个坑点，你将row和col反过来写进文件，检查还是会过的，加大了task9排查bug的难度
+
+
+
 ## Task9
 
 
 
-0 m0.row
-
-4 m0.col
-
-8 m1.row
-
-12 m1.col
-
-16 input.row
-
-20 input.col
-
-24 h.row
-
-28 h.col
-
-32 o.row
-
-36 o.col
+灵活利用栈
