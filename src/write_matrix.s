@@ -52,8 +52,8 @@ write_matrix:
     # we need write the row and col first
     
     addi sp sp -8
-    sw s3 0(sp)
-    sw s2 4(sp)
+    sw s2 0(sp)
+    sw s3 4(sp)
     
     mv a0 s0
     mv a1 sp
